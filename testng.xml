@@ -4,7 +4,7 @@
   <test thread-count="5" name="TestonChrome">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-
+			<class name="com.ash.tests.LoginTest" />
 			<class name="com.ash.tests.AdminCreation" />
 			<!-- <class name="com.ash.tests.RecritmentCreation" />--> 
 			 
