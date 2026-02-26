@@ -13,7 +13,7 @@ public class AdminCreation extends BasePage {
 		// launchBrowser();
 
 		new LoginPage().enterusername().enterpassword().clickLogin();
-
+		Thread.sleep(5000);
 		// Admin page
 		new AdminPage().clickAdmin().userRole().employeeName().employeeStatus().userName().enterPassword()
 				.confirmPassword().save();
