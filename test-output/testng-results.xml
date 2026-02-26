@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T12:14:55 IST" name="Suite" finished-at="2025-09-17T12:15:34 IST" duration-ms="38591">
+  <suite started-at="2026-02-26T08:24:40 IST" name="Suite" finished-at="2026-02-26T08:25:22 IST" duration-ms="41551">
     <groups>
     </groups>
-    <test started-at="2025-09-17T12:14:55 IST" name="TestonChrome" finished-at="2025-09-17T12:15:34 IST" duration-ms="38591">
+    <test started-at="2026-02-26T08:24:40 IST" name="TestonChrome" finished-at="2026-02-26T08:25:22 IST" duration-ms="41551">
       <class name="com.ash.tests.AdminCreation">
-        <test-method is-config="true" signature="getInstance()[pri:0, instance:com.ash.tests.AdminCreation@279fedbd]" started-at="2025-09-17T12:14:55 IST" name="getInstance" finished-at="2025-09-17T12:14:56 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="getInstance()[pri:0, instance:com.ash.tests.AdminCreation@43c1b556]" started-at="2026-02-26T08:24:40 IST" name="getInstance" finished-at="2026-02-26T08:24:41 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInstance -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.AdminCreation@279fedbd]" started-at="2025-09-17T12:14:56 IST" name="launchBrowser" finished-at="2025-09-17T12:15:03 IST" duration-ms="7710" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.AdminCreation@43c1b556]" started-at="2026-02-26T08:24:41 IST" name="launchBrowser" finished-at="2026-02-26T08:24:47 IST" duration-ms="6080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,13 +22,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Admin()[pri:0, instance:com.ash.tests.AdminCreation@279fedbd]" started-at="2025-09-17T12:15:03 IST" name="Admin" finished-at="2025-09-17T12:15:24 IST" duration-ms="20670" status="PASS">
+        <test-method signature="Admin()[pri:0, instance:com.ash.tests.AdminCreation@43c1b556]" started-at="2026-02-26T08:24:47 IST" name="Admin" finished-at="2026-02-26T08:25:10 IST" duration-ms="22963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin -->
       </class> <!-- com.ash.tests.AdminCreation -->
       <class name="com.ash.tests.RecritmentCreation">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.RecritmentCreation@1ff4931d]" started-at="2025-09-17T12:15:24 IST" name="launchBrowser" finished-at="2025-09-17T12:15:28 IST" duration-ms="3997" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.RecritmentCreation@c0c2f8d]" started-at="2026-02-26T08:25:10 IST" name="launchBrowser" finished-at="2026-02-26T08:25:14 IST" duration-ms="4536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Recruit()[pri:0, instance:com.ash.tests.RecritmentCreation@1ff4931d]" started-at="2025-09-17T12:15:28 IST" name="Recruit" finished-at="2025-09-17T12:15:34 IST" duration-ms="5887" status="PASS">
+        <test-method signature="Recruit()[pri:0, instance:com.ash.tests.RecritmentCreation@c0c2f8d]" started-at="2026-02-26T08:25:14 IST" name="Recruit" finished-at="2026-02-26T08:25:22 IST" duration-ms="7725" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'Junior Account Assistant')]"}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6a599748059eff335fb6ad718400c4a, findChildElement {using=xpath, value=.//*[contains(text(),'Junior Account Assistant')], id=f.1121B8FC0439A2138F236057E2872F72.d.2FF55C42FAC58DF0DEBCADA688DB7BC6.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63276}, goog:processID: 7364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63276/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6a599748059eff335fb6ad718400c4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'Junior Account Assistant')]"}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6a599748059eff335fb6ad718400c4a, findChildElement {using=xpath, value=.//*[contains(text(),'Junior Account Assistant')], id=f.1121B8FC0439A2138F236057E2872F72.d.2FF55C42FAC58DF0DEBCADA688DB7BC6.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63276}, goog:processID: 7364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63276/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6a599748059eff335fb6ad718400c4a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:211)
+at com.ash.pages.RecruitmentPage.selectVacancy(RecruitmentPage.java:53)
+at com.ash.tests.RecritmentCreation.Recruit(RecritmentCreation.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Recruit -->

@@ -4,13 +4,6 @@
   <test thread-count="5" parallel="tests" name="TestonChrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ash.tests.AdminCreation">
-        <methods>
-          <include name="Admin"/>
-          <include name="getInstance"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.ash.tests.AdminCreation -->
       <class name="com.ash.tests.RecritmentCreation">
         <methods>
           <include name="Recruit"/>
