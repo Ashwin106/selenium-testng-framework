@@ -7,6 +7,7 @@
 
 			<class name="com.ash.tests.AdminCreation" />
 			 <class name="com.ash.tests.RecritmentCreation" />
+			   <class name="com.ash.tests.RecritmentCreation" />
 			  
       
     </classes>
